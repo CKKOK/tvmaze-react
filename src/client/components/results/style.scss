@@ -1,0 +1,15 @@
+.resultsContainer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2em;
+    align-items: start;
+}
+
+.resultsPanel {
+    text-align:center;
+}
+
+.backButton {
+    margin: 2em;
+}

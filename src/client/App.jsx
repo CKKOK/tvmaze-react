@@ -2,9 +2,6 @@ import React from 'react';
 import {hot} from 'react-hot-loader';
 
 import Home from './components/home/home';
-import Search from './components/search/search';
-import Results from './components/results/results';
-import SearchResult from './components/searchresult/searchresult';
 
 class App extends React.Component {
   constructor() {
@@ -13,9 +10,7 @@ class App extends React.Component {
   }
 
   render() {
-    return(
-      <Home />
-    );
+    return <Home />;
   }
 }
 
