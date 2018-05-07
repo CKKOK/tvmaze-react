@@ -1,24 +1,20 @@
 import React from 'react';
 import {hot} from 'react-hot-loader';
 
-import Counter from './components/counter/counter';
-import Form from './components/form/form';
+import Home from './components/home/home';
+import Search from './components/search/search';
+import Results from './components/results/results';
+import SearchResult from './components/searchresult/searchresult';
 
 class App extends React.Component {
   constructor() {
     super();
-    this.state = {
-      message: 'hello'
-    };
+    this.state = {};
   }
 
   render() {
-    return (
-      <div>
-        <Form />
-        Welcome.
-        <Counter message={this.state.message} />
-      </div>
+    return(
+      <Home />
     );
   }
 }

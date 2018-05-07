@@ -25,11 +25,19 @@ module.exports = {
           quiet: false,
           failOnWarning: false,
           failOnError: false,
+          presets: ['react']
         }
       },
       {
         test: /\.(js|jsx)$/,
-        use: ['babel-loader'],
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: ['react']
+            }
+          }
+        ],
         exclude: /node_modules/
       },
       {
