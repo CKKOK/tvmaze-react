@@ -1,10 +1,9 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
+import {Button} from 'react-bootstrap';
 import styles from './style.scss';
 
 const urlRoot = 'http://api.tvmaze.com/search/shows?q=';
-
-import { Button } from 'react-bootstrap';
 
 class Search extends React.Component {
   constructor() {
@@ -26,8 +25,7 @@ class Search extends React.Component {
     // Actually do the AJAX call here
     fetch(urlRoot + encodeURIComponent(query))
       .then((response) => response.json())
-      .then((data) => this.props.searchResultHandler(data))
-      .catch((error) => console.error(error));
+      .then((data) => this.props.searchResultHandler(data));
   }
 
   render() {
@@ -41,11 +39,17 @@ class Search extends React.Component {
             onChange={(e) => this.onChange(e.target.value)}
           />
           <br />
-          <Button bsStyle="primary" onClick={this.searchSubmit}>Search</Button>
+          <Button bsStyle="primary" onClick={this.searchSubmit}>
+            Search
+          </Button>
         </form>
       </div>
     );
   }
 }
+
+Search.propTypes = {
+  searchResultHandler: PropTypes.func.isRequired
+};
 
 export default Search;

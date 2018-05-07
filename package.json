@@ -71,6 +71,7 @@
   },
   "dependencies": {
     "airbnb-browser-shims": "^2.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-polyfill": "6.26.0",
     "body-parser": "1.18.2",
     "bootstrap": "^4.1.1",

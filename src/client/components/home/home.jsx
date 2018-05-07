@@ -36,7 +36,7 @@ class Home extends React.Component {
     return (
       <div className={styles.home}>
         <div className={styles.title}>TVMaze React</div>
-        {(this.state.view === SEARCH) ? (
+        {this.state.view === SEARCH ? (
           <Search searchResultHandler={this.handleSearchResults} />
         ) : (
           <Results
