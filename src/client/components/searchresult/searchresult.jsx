@@ -2,18 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './style.scss';
 
-function SearchResult(props) {
-  return (
-    <div className={styles.searchResultItem}>
-      <a href={props.url}>
-        <img src={props.imgurl} alt={props.name} />
-        <br />
-        {props.name}
-        <br />
-      </a>
-      <p className={styles.details}>{props.summary}</p>
-    </div>
-  );
+class SearchResult extends React.Component {
+  render () {
+    return (
+      <div className={styles.searchResultItem}>
+        <a href={this.props.url}>
+          <img src={this.props.imgurl} alt={this.props.name} />
+          <br />
+          {this.props.name}
+          <br />
+        </a>
+        <p className={styles.details}>{this.props.summary}</p>
+      </div>
+    );
+  }
 }
 
 SearchResult.propTypes = {

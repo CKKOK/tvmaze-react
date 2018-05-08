@@ -13,15 +13,18 @@ class Home extends React.Component {
     super();
     this.state = {
       view: SEARCH,
+      query: '',
+      page: 1,
       results: []
     };
     this.handleSearchResults = this.handleSearchResults.bind(this);
     this.changeView = this.changeView.bind(this);
   }
 
-  handleSearchResults(results) {
+  handleSearchResults(results, query) {
     this.setState({
       view: RESULTS,
+      query,
       results
     });
   }
@@ -43,6 +46,7 @@ class Home extends React.Component {
             viewToggler={() => {
               this.changeView(SEARCH);
             }}
+            query={this.state.query}
             searchResults={this.state.results}
           />
         )}

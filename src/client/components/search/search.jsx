@@ -20,12 +20,17 @@ class Search extends React.Component {
 
   searchSubmit(e) {
     e.preventDefault();
-    const query = this.state.query;
-    this.setState({query: ''});
-    // Actually do the AJAX call here
-    fetch(urlRoot + encodeURIComponent(query))
-      .then((response) => response.json())
-      .then((data) => this.props.searchResultHandler(data));
+    let query = this.state.query,
+        url = null;
+    if (this.state.query != '') {
+      url = urlRoot + encodeURIComponent(query);
+      this.setState({query: ''});
+    } else {
+      url = 'http://api.tvmaze.com/shows?page=1';
+    };
+    fetch(url)
+        .then((response) => response.json())
+        .then((data) => this.props.searchResultHandler(data, query));
   }
 
   render() {
