@@ -35910,3 +35910,859 @@ Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
     Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
     [./node_modules/html-webpack-plugin/lib/loader.js!./src/client/index.html] 852 bytes {[1m[33m0[39m[22m}
 2018-05-08T19:02:29.194Z - info: Failed to compile.
+2018-05-09T03:47:38.764Z - info: Application logs file: /Users/kokcheekean/Documents/GitHub/tvmaze-react/.application.log
+2018-05-09T03:47:40.491Z - info: Application env: development
+2018-05-09T03:47:40.549Z - info: HTTP server is now running on http://localhost:3000
+2018-05-09T03:47:46.035Z - info: wait until bundle finished: /
+2018-05-09T03:47:46.037Z - info: wait until bundle finished: /__webpack_hmr
+2018-05-09T03:47:46.196Z - info: wait until bundle finished: /__webpack_hmr
+2018-05-09T03:47:48.022Z - error: Hash: [1m3ad5b38aab3002d4f187[39m[22m
+Version: webpack [1m4.1.1[39m[22m
+Time: [1m7315[39m[22mms
+Built at: 5/9/2018 [1m11:47:47 AM[39m[22m
+     [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+   [1m[32mmain.js[39m[22m    109 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+ [1m[33mvendor.js[39m[22m   [1m[33m5.85 MiB[39m[22m  [1mvendor[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendor
+[1m[32mindex.html[39m[22m  898 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m = [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m
+[./node_modules/airbnb-browser-shims/index.js] 103 bytes {[1m[33mvendor[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/babel-polyfill/lib/index.js] 833 bytes {[1m[33mvendor[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/querystring-es3/index.js] 127 bytes {[1m[33mvendor[39m[22m}[1m[32m [built][39m[22m
+[./src/client/App.jsx] 301 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+   [0] [1mmulti ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m 40 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/react-dom/index.js] 1.33 KiB {[1m[33mvendor[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/react/index.js] 190 bytes {[1m[33mvendor[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/sanitize.css/sanitize.css] 1.29 KiB {[1m[33mvendor[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/strip-ansi/index.js] 161 bytes {[1m[33mvendor[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-hot-middleware/client-overlay.js] [1m(webpack)-hot-middleware/client-overlay.js[39m[22m 2.16 KiB {[1m[33mvendor[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false] [1m(webpack)-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false[39m[22m 7.18 KiB {[1m[33mvendor[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-hot-middleware/process-update.js] [1m(webpack)-hot-middleware/process-update.js[39m[22m 4.23 KiB {[1m[33mvendor[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack/buildin/module.js] [1m(webpack)/buildin/module.js[39m[22m 519 bytes {[1m[33mvendor[39m[22m}[1m[32m [built][39m[22m
+[./src/client/index.jsx] 303 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./src/client/style.scss] 1.44 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 734 hidden modules
+
+[1m[31mERROR in ./src/client/components/home/home.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/home/home.jsx[24m
+  [2m17:7[22m  [31merror[39m  Unused state field: 'page'  [2mreact/no-unused-state[22m
+
+[31m[1m✖ 1 problem (1 error, 0 warnings)[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/App.jsx 4:0-42 13:31-35
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/results/results.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/results/results.jsx[24m
+  [2m13:7[22m    [31merror[39m  Unused state field: 'viewToggler'                                                                                                                                                                                                                                                                                               [2mreact/no-unused-state[22m
+  [2m14:20[22m   [31merror[39m  'query' is missing in props validation                                                                                                                                                                                                                                                                                          [2mreact/prop-types[22m
+  [2m23:4[22m    [31merror[39m  Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m27:4[22m    [31merror[39m  Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m29:3[22m    [31merror[39m  addResults should be placed after onScroll                                                                                                                                                                                                                                                                                      [2mreact/sort-comp[22m
+  [2m30:5[22m    [31merror[39m  Split 'let' declarations into multiple statements                                                                                                                                                                                                                                                                               [2mone-var[22m
+  [2m30:51[22m   [31merror[39m  Insert `⏎·····`                                                                                                                                                                                                                                                                                                                 [2mprettier/prettier[22m
+  [2m30:52[22m   [31merror[39m  Use object destructuring                                                                                                                                                                                                                                                                                                        [2mprefer-destructuring[22m
+  [2m32:5[22m    [31merror[39m  Unary operator '++' used                                                                                                                                                                                                                                                                                                        [2mno-plusplus[22m
+  [2m38:4[22m    [31merror[39m  Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m45:6[22m    [31merror[39m  Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m46:4[22m    [31merror[39m  Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m48:11[22m   [31merror[39m  Insert `·`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m50:26[22m   [31merror[39m  Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                             [2meqeqeq[22m
+  [2m51:71[22m   [31merror[39m  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`                                                                                                                                                                                                                           [2marrow-body-style[22m
+  [2m52:16[22m   [31merror[39m  Replace `<SearchResult·url={item.show.url}·imgurl={item.show.image.medium}·name={item.show.name}·summary={item.show.summary}` with `(⏎··········<SearchResult⏎············url={item.show.url}⏎············imgurl={item.show.image.medium}⏎············name={item.show.name}⏎············summary={item.show.summary}⏎·········`  [2mprettier/prettier[22m
+  [2m53:9[22m    [31merror[39m  Replace `}` with `);`                                                                                                                                                                                                                                                                                                           [2mprettier/prettier[22m
+  [2m54:7[22m    [31merror[39m  Insert `}`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m56:71[22m   [31merror[39m  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`                                                                                                                                                                                                                           [2marrow-body-style[22m
+  [2m57:114[22m  [31merror[39m  Insert `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m59:6[22m    [31merror[39m  Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m60:1[22m    [31merror[39m  Delete `··`                                                                                                                                                                                                                                                                                                                     [2mprettier/prettier[22m
+
+[31m[1m✖ 22 problems (22 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  15 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 6:0-41 47:136-143
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/search/search.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/search/search.jsx[24m
+  [2m23:5[22m   [31merror[39m  Split 'let' declarations into multiple statements  [2mone-var[22m
+  [2m23:9[22m   [31merror[39m  Use object destructuring                           [2mprefer-destructuring[22m
+  [2m23:9[22m   [31merror[39m  'query' is never reassigned. Use 'const' instead   [2mprefer-const[22m
+  [2m24:7[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m25:26[22m  [31merror[39m  Expected '!==' and instead saw '!='                [2meqeqeq[22m
+  [2m30:6[22m   [31merror[39m  Delete `;`                                         [2mprettier/prettier[22m
+  [2m32:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m33:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+
+[31m[1m✖ 8 problems (8 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  4 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 5:0-38 47:55-61
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/searchresult/searchresult.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/searchresult/searchresult.jsx[24m
+  [2m5:1[22m  [31merror[39m  Component should be written as a pure function  [2mreact/prefer-stateless-function[22m
+  [2m6:9[22m  [31merror[39m  Delete `·`                                      [2mprettier/prettier[22m
+
+[31m[1m✖ 2 problems (2 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  1 error, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/results/results.jsx 5:0-56 51:35-47 55:35-47
+ @ ./src/client/components/home/home.jsx
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+         [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m[1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mindex.html[39m[22m  28.5 KiB       [1m0[39m[22m  [1m[32m[39m[22m
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/client/index.html] 852 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+2018-05-09T03:47:48.023Z - info: Failed to compile.
+2018-05-09T03:47:48.128Z - info: ::ffff:127.0.0.1 - GET / - 200 - 2.094s
+2018-05-09T03:47:48.230Z - info: ::ffff:127.0.0.1 - GET /main.js - 200 - 0.001s
+2018-05-09T03:47:48.260Z - info: ::ffff:127.0.0.1 - GET /vendor.js - 200 - 0.008s
+2018-05-09T05:35:49.675Z - info: ::ffff:127.0.0.1 - GET / - 200 - 0.006s
+2018-05-09T05:35:49.718Z - info: ::ffff:127.0.0.1 - GET /main.js - 304 - 0.003s
+2018-05-09T05:35:49.766Z - info: ::ffff:127.0.0.1 - GET /vendor.js - 304 - 0.026s
+2018-05-09T05:36:43.039Z - info: ::1 - GET / - 200 - 0.001s
+2018-05-09T05:36:43.118Z - info: ::1 - GET /vendor.js - 200 - 0.019s
+2018-05-09T05:36:43.124Z - info: ::1 - GET /main.js - 200 - 0.002s
+2018-05-09T05:36:44.131Z - info: ::1 - GET /favicon.ico - 200 - 0.027s
+2018-05-09T05:39:30.959Z - info: Compiling...
+2018-05-09T05:39:32.128Z - error: Hash: [1m4880c4b0afb60b4ce031[39m[22m
+Version: webpack [1m4.1.1[39m[22m
+Time: [1m829[39m[22mms
+Built at: 5/9/2018 [1m1:39:32 PM[39m[22m
+                 [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[32mhot-update.b84369.json[39m[22m   44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+               [1m[32mmain.js[39m[22m    109 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+             [1m[33mvendor.js[39m[22m   [1m[33m5.85 MiB[39m[22m  [1mvendor[39m[22m  [1m[32m[39m[22m           [1m[33m[big][39m[22m  vendor
+  [1m[32mhot-update.3ad5b3.js[39m[22m    9.1 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32mhot-update.3ad5b3.json[39m[22m   46 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+            [1m[32mindex.html[39m[22m  898 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m = [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m [1m[32mhot-update.3ad5b3.js[39m[22m
+[./node_modules/airbnb-browser-shims/index.js] 103 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/babel-polyfill/lib/index.js] 833 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/querystring-es3/index.js] 127 bytes {[1m[33mvendor[39m[22m}
+[./src/client/App.jsx] 301 bytes {[1m[33mmain[39m[22m}
+   [0] [1mmulti ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m 40 bytes {[1m[33mmain[39m[22m}
+[./node_modules/react-dom/index.js] 1.33 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/react/index.js] 190 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/sanitize.css/sanitize.css] 1.29 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/strip-ansi/index.js] 161 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/client-overlay.js] [1m(webpack)-hot-middleware/client-overlay.js[39m[22m 2.16 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false] [1m(webpack)-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false[39m[22m 7.18 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/process-update.js] [1m(webpack)-hot-middleware/process-update.js[39m[22m 4.23 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack/buildin/module.js] [1m(webpack)/buildin/module.js[39m[22m 519 bytes {[1m[33mvendor[39m[22m}
+[./src/client/index.jsx] 303 bytes {[1m[33mmain[39m[22m}
+[./src/client/style.scss] 1.44 KiB {[1m[33mmain[39m[22m}
+    + 734 hidden modules
+
+[1m[31mERROR in ./src/client/components/home/home.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/home/home.jsx[24m
+  [2m17:7[22m  [31merror[39m  Unused state field: 'page'  [2mreact/no-unused-state[22m
+
+[31m[1m✖ 1 problem (1 error, 0 warnings)[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/App.jsx 4:0-42 13:31-35
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/results/results.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/results/results.jsx[24m
+  [2m13:7[22m    [31merror[39m    Unused state field: 'viewToggler'                                                                                                                                                                                                                                                                                               [2mreact/no-unused-state[22m
+  [2m14:20[22m   [31merror[39m    'query' is missing in props validation                                                                                                                                                                                                                                                                                          [2mreact/prop-types[22m
+  [2m23:4[22m    [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m27:4[22m    [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m29:3[22m    [31merror[39m    addResults should be placed after onScroll                                                                                                                                                                                                                                                                                      [2mreact/sort-comp[22m
+  [2m30:5[22m    [31merror[39m    Split 'let' declarations into multiple statements                                                                                                                                                                                                                                                                               [2mone-var[22m
+  [2m30:51[22m   [31merror[39m    Insert `⏎·····`                                                                                                                                                                                                                                                                                                                 [2mprettier/prettier[22m
+  [2m30:52[22m   [31merror[39m    Use object destructuring                                                                                                                                                                                                                                                                                                        [2mprefer-destructuring[22m
+  [2m32:5[22m    [31merror[39m    Unary operator '++' used                                                                                                                                                                                                                                                                                                        [2mno-plusplus[22m
+  [2m38:4[22m    [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m45:6[22m    [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m46:4[22m    [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m48:11[22m   [31merror[39m    Insert `·`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m50:26[22m   [31merror[39m    Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                             [2meqeqeq[22m
+  [2m51:71[22m   [31merror[39m    Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`                                                                                                                                                                                                                           [2marrow-body-style[22m
+  [2m52:16[22m   [31merror[39m    Replace `<SearchResult·url={item.show.url}·imgurl={item.show.image.medium}·name={item.show.name}·summary={item.show.summary}` with `(⏎··········<SearchResult⏎············url={item.show.url}⏎············imgurl={item.show.image.medium}⏎············name={item.show.name}⏎············summary={item.show.summary}⏎·········`  [2mprettier/prettier[22m
+  [2m53:9[22m    [31merror[39m    Replace `}` with `);`                                                                                                                                                                                                                                                                                                           [2mprettier/prettier[22m
+  [2m54:7[22m    [31merror[39m    Insert `}`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m57:9[22m    [33mwarning[39m  Unexpected console statement                                                                                                                                                                                                                                                                                                    [2mno-console[22m
+  [2m58:114[22m  [31merror[39m    Insert `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m60:6[22m    [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m61:1[22m    [31merror[39m    Delete `··`                                                                                                                                                                                                                                                                                                                     [2mprettier/prettier[22m
+
+[31m[1m✖ 22 problems (21 errors, 1 warning)[22m[39m
+[31m[1m[22m[39m[31m[1m  14 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 6:0-41 47:136-143
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/search/search.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/search/search.jsx[24m
+  [2m23:5[22m   [31merror[39m  Split 'let' declarations into multiple statements  [2mone-var[22m
+  [2m23:9[22m   [31merror[39m  Use object destructuring                           [2mprefer-destructuring[22m
+  [2m23:9[22m   [31merror[39m  'query' is never reassigned. Use 'const' instead   [2mprefer-const[22m
+  [2m24:7[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m25:26[22m  [31merror[39m  Expected '!==' and instead saw '!='                [2meqeqeq[22m
+  [2m30:6[22m   [31merror[39m  Delete `;`                                         [2mprettier/prettier[22m
+  [2m32:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m33:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+
+[31m[1m✖ 8 problems (8 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  4 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 5:0-38 47:55-61
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/searchresult/searchresult.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/searchresult/searchresult.jsx[24m
+  [2m5:1[22m  [31merror[39m  Component should be written as a pure function  [2mreact/prefer-stateless-function[22m
+  [2m6:9[22m  [31merror[39m  Delete `·`                                      [2mprettier/prettier[22m
+
+[31m[1m✖ 2 problems (2 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  1 error, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/results/results.jsx 5:0-56 51:35-47 55:35-47
+ @ ./src/client/components/home/home.jsx
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+                [1m[32mindex.html[39m[22m  28.5 KiB       [1m1[39m[22m  [1m[32m[39m[22m           
+    [1m[32mhot-update.b84369.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/client/index.html] 852 bytes {[1m[33m1[39m[22m}
+2018-05-09T05:39:32.129Z - info: Failed to compile.
+2018-05-09T05:42:24.974Z - info: Compiling...
+2018-05-09T05:42:25.705Z - error: Hash: [1m154942dc0a1f1690b843[39m[22m
+Version: webpack [1m4.1.1[39m[22m
+Time: [1m484[39m[22mms
+Built at: 5/9/2018 [1m1:42:25 PM[39m[22m
+                 [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[32mhot-update.5dd02c.json[39m[22m   44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+               [1m[32mmain.js[39m[22m    109 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+             [1m[33mvendor.js[39m[22m   [1m[33m5.85 MiB[39m[22m  [1mvendor[39m[22m  [1m[32m[39m[22m           [1m[33m[big][39m[22m  vendor
+  [1m[32mhot-update.4880c4.js[39m[22m    9.1 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32mhot-update.4880c4.json[39m[22m   46 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+            [1m[32mindex.html[39m[22m  898 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m = [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m [1m[32mhot-update.4880c4.js[39m[22m
+[./node_modules/airbnb-browser-shims/index.js] 103 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/babel-polyfill/lib/index.js] 833 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/querystring-es3/index.js] 127 bytes {[1m[33mvendor[39m[22m}
+[./src/client/App.jsx] 301 bytes {[1m[33mmain[39m[22m}
+   [0] [1mmulti ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m 40 bytes {[1m[33mmain[39m[22m}
+[./node_modules/react-dom/index.js] 1.33 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/react/index.js] 190 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/sanitize.css/sanitize.css] 1.29 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/strip-ansi/index.js] 161 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/client-overlay.js] [1m(webpack)-hot-middleware/client-overlay.js[39m[22m 2.16 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false] [1m(webpack)-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false[39m[22m 7.18 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/process-update.js] [1m(webpack)-hot-middleware/process-update.js[39m[22m 4.23 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack/buildin/module.js] [1m(webpack)/buildin/module.js[39m[22m 519 bytes {[1m[33mvendor[39m[22m}
+[./src/client/index.jsx] 303 bytes {[1m[33mmain[39m[22m}
+[./src/client/style.scss] 1.44 KiB {[1m[33mmain[39m[22m}
+    + 734 hidden modules
+
+[1m[31mERROR in ./src/client/components/home/home.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/home/home.jsx[24m
+  [2m17:7[22m  [31merror[39m  Unused state field: 'page'  [2mreact/no-unused-state[22m
+
+[31m[1m✖ 1 problem (1 error, 0 warnings)[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/App.jsx 4:0-42 13:31-35
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/results/results.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/results/results.jsx[24m
+  [2m13:7[22m    [31merror[39m    Unused state field: 'viewToggler'                                                                                                                                                                                                                                                                                               [2mreact/no-unused-state[22m
+  [2m14:20[22m   [31merror[39m    'query' is missing in props validation                                                                                                                                                                                                                                                                                          [2mreact/prop-types[22m
+  [2m23:4[22m    [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m27:4[22m    [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m29:3[22m    [31merror[39m    addResults should be placed after onScroll                                                                                                                                                                                                                                                                                      [2mreact/sort-comp[22m
+  [2m30:5[22m    [31merror[39m    Split 'let' declarations into multiple statements                                                                                                                                                                                                                                                                               [2mone-var[22m
+  [2m30:51[22m   [31merror[39m    Insert `⏎·····`                                                                                                                                                                                                                                                                                                                 [2mprettier/prettier[22m
+  [2m30:52[22m   [31merror[39m    Use object destructuring                                                                                                                                                                                                                                                                                                        [2mprefer-destructuring[22m
+  [2m32:5[22m    [31merror[39m    Unary operator '++' used                                                                                                                                                                                                                                                                                                        [2mno-plusplus[22m
+  [2m38:4[22m    [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m45:6[22m    [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m46:4[22m    [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m48:11[22m   [31merror[39m    Insert `·`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m50:26[22m   [31merror[39m    Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                             [2meqeqeq[22m
+  [2m51:71[22m   [31merror[39m    Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`                                                                                                                                                                                                                           [2marrow-body-style[22m
+  [2m52:16[22m   [31merror[39m    Replace `<SearchResult·url={item.show.url}·imgurl={item.show.image.medium}·name={item.show.name}·summary={item.show.summary}` with `(⏎··········<SearchResult⏎············url={item.show.url}⏎············imgurl={item.show.image.medium}⏎············name={item.show.name}⏎············summary={item.show.summary}⏎·········`  [2mprettier/prettier[22m
+  [2m53:9[22m    [31merror[39m    Replace `}` with `);`                                                                                                                                                                                                                                                                                                           [2mprettier/prettier[22m
+  [2m54:7[22m    [31merror[39m    Insert `}`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m57:9[22m    [33mwarning[39m  Unexpected console statement                                                                                                                                                                                                                                                                                                    [2mno-console[22m
+  [2m58:114[22m  [31merror[39m    Insert `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m60:6[22m    [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m61:1[22m    [31merror[39m    Delete `··`                                                                                                                                                                                                                                                                                                                     [2mprettier/prettier[22m
+
+[31m[1m✖ 22 problems (21 errors, 1 warning)[22m[39m
+[31m[1m[22m[39m[31m[1m  14 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 6:0-41 47:136-143
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/search/search.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/search/search.jsx[24m
+  [2m23:5[22m   [31merror[39m  Split 'let' declarations into multiple statements  [2mone-var[22m
+  [2m23:9[22m   [31merror[39m  Use object destructuring                           [2mprefer-destructuring[22m
+  [2m23:9[22m   [31merror[39m  'query' is never reassigned. Use 'const' instead   [2mprefer-const[22m
+  [2m24:7[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m25:26[22m  [31merror[39m  Expected '!==' and instead saw '!='                [2meqeqeq[22m
+  [2m30:6[22m   [31merror[39m  Delete `;`                                         [2mprettier/prettier[22m
+  [2m32:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m33:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+
+[31m[1m✖ 8 problems (8 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  4 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 5:0-38 47:55-61
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/searchresult/searchresult.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/searchresult/searchresult.jsx[24m
+  [2m5:1[22m  [31merror[39m  Component should be written as a pure function  [2mreact/prefer-stateless-function[22m
+  [2m6:9[22m  [31merror[39m  Delete `·`                                      [2mprettier/prettier[22m
+
+[31m[1m✖ 2 problems (2 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  1 error, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/results/results.jsx 5:0-56 51:35-47 55:35-47
+ @ ./src/client/components/home/home.jsx
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+                [1m[32mindex.html[39m[22m  28.5 KiB       [1m0[39m[22m  [1m[32m[39m[22m           
+    [1m[32mhot-update.5dd02c.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/client/index.html] 852 bytes {[1m[33m0[39m[22m}
+2018-05-09T05:42:25.705Z - info: Failed to compile.
+2018-05-09T05:42:28.296Z - info: ::1 - GET / - 304 - 0.001s
+2018-05-09T05:42:28.337Z - info: ::1 - GET /vendor.js - 304 - 0.016s
+2018-05-09T05:42:28.342Z - info: ::1 - GET /main.js - 200 - 0.001s
+2018-05-09T05:42:29.436Z - info: ::1 - GET /favicon.ico - 200 - 0.015s
+2018-05-09T05:50:41.262Z - info: Compiling...
+2018-05-09T05:50:42.548Z - error: Hash: [1m50a506789ff06c43e645[39m[22m
+Version: webpack [1m4.1.1[39m[22m
+Time: [1m949[39m[22mms
+Built at: 5/9/2018 [1m1:50:42 PM[39m[22m
+                 [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[32mhot-update.213aff.json[39m[22m   44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+               [1m[32mmain.js[39m[22m    110 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+             [1m[33mvendor.js[39m[22m   [1m[33m5.85 MiB[39m[22m  [1mvendor[39m[22m  [1m[32m[39m[22m           [1m[33m[big][39m[22m  vendor
+  [1m[32mhot-update.154942.js[39m[22m   9.74 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32mhot-update.154942.json[39m[22m   46 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+            [1m[32mindex.html[39m[22m  898 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m = [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m [1m[32mhot-update.154942.js[39m[22m
+[./node_modules/airbnb-browser-shims/index.js] 103 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/babel-polyfill/lib/index.js] 833 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/querystring-es3/index.js] 127 bytes {[1m[33mvendor[39m[22m}
+[./src/client/App.jsx] 301 bytes {[1m[33mmain[39m[22m}
+   [0] [1mmulti ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m 40 bytes {[1m[33mmain[39m[22m}
+[./node_modules/react-dom/index.js] 1.33 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/react/index.js] 190 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/sanitize.css/sanitize.css] 1.29 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/strip-ansi/index.js] 161 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/client-overlay.js] [1m(webpack)-hot-middleware/client-overlay.js[39m[22m 2.16 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false] [1m(webpack)-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false[39m[22m 7.18 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/process-update.js] [1m(webpack)-hot-middleware/process-update.js[39m[22m 4.23 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack/buildin/module.js] [1m(webpack)/buildin/module.js[39m[22m 519 bytes {[1m[33mvendor[39m[22m}
+[./src/client/index.jsx] 303 bytes {[1m[33mmain[39m[22m}
+[./src/client/style.scss] 1.44 KiB {[1m[33mmain[39m[22m}
+    + 734 hidden modules
+
+[1m[31mERROR in ./src/client/components/home/home.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/home/home.jsx[24m
+  [2m17:7[22m  [31merror[39m  Unused state field: 'page'  [2mreact/no-unused-state[22m
+
+[31m[1m✖ 1 problem (1 error, 0 warnings)[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/App.jsx 4:0-42 13:31-35
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/results/results.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/results/results.jsx[24m
+  [2m17:7[22m   [31merror[39m    Unused state field: 'viewToggler'                                                                                                                                                                                                                                                                                                                                                                                     [2mreact/no-unused-state[22m
+  [2m18:20[22m  [31merror[39m    'query' is missing in props validation                                                                                                                                                                                                                                                                                                                                                                                [2mreact/prop-types[22m
+  [2m27:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m31:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m33:3[22m   [31merror[39m    addResults should be placed after onScroll                                                                                                                                                                                                                                                                                                                                                                            [2mreact/sort-comp[22m
+  [2m34:5[22m   [31merror[39m    Split 'let' declarations into multiple statements                                                                                                                                                                                                                                                                                                                                                                     [2mone-var[22m
+  [2m34:51[22m  [31merror[39m    Insert `⏎·····`                                                                                                                                                                                                                                                                                                                                                                                                       [2mprettier/prettier[22m
+  [2m34:52[22m  [31merror[39m    Use object destructuring                                                                                                                                                                                                                                                                                                                                                                                              [2mprefer-destructuring[22m
+  [2m36:5[22m   [31merror[39m    Unary operator '++' used                                                                                                                                                                                                                                                                                                                                                                                              [2mno-plusplus[22m
+  [2m42:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m49:6[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m50:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m52:11[22m  [31merror[39m    Insert `·`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m54:26[22m  [31merror[39m    Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                                                                                                                   [2meqeqeq[22m
+  [2m55:71[22m  [31merror[39m    Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`                                                                                                                                                                                                                                                                                                                 [2marrow-body-style[22m
+  [2m56:16[22m  [31merror[39m    Replace `<SearchResult·url={item.show.url}·imgurl={item.show.image.medium}·name={item.show.name}·summary={item.show.summary}` with `(⏎··········<SearchResult⏎············url={item.show.url}⏎············imgurl={item.show.image.medium}⏎············name={item.show.name}⏎············summary={item.show.summary}⏎·········`                                                                                        [2mprettier/prettier[22m
+  [2m57:9[22m   [31merror[39m    Replace `}` with `);`                                                                                                                                                                                                                                                                                                                                                                                                 [2mprettier/prettier[22m
+  [2m58:7[22m   [31merror[39m    Insert `}`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m61:9[22m   [33mwarning[39m  Unexpected console statement                                                                                                                                                                                                                                                                                                                                                                                          [2mno-console[22m
+  [2m62:16[22m  [31merror[39m    Replace `<SearchResult·url={item.url·||·defaultURL}·imgurl={item.image.medium·||·defaultImage}·name={item.name·||·defaultName}·summary={item.summary·||·defaultSummary}` with `(⏎··········<SearchResult⏎············url={item.url·||·defaultURL}⏎············imgurl={item.image.medium·||·defaultImage}⏎············name={item.name·||·defaultName}⏎············summary={item.summary·||·defaultSummary}⏎·········`  [2mprettier/prettier[22m
+  [2m63:7[22m   [31merror[39m    Replace `}` with `··`                                                                                                                                                                                                                                                                                                                                                                                                 [2mprettier/prettier[22m
+  [2m64:1[22m   [31merror[39m    Replace `····}` with `······})`                                                                                                                                                                                                                                                                                                                                                                                       [2mprettier/prettier[22m
+  [2m65:3[22m   [31merror[39m    Insert `··}⏎`                                                                                                                                                                                                                                                                                                                                                                                                         [2mprettier/prettier[22m
+
+[31m[1m✖ 23 problems (22 errors, 1 warning)[22m[39m
+[31m[1m[22m[39m[31m[1m  15 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 6:0-41 47:136-143
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/search/search.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/search/search.jsx[24m
+  [2m23:5[22m   [31merror[39m  Split 'let' declarations into multiple statements  [2mone-var[22m
+  [2m23:9[22m   [31merror[39m  Use object destructuring                           [2mprefer-destructuring[22m
+  [2m23:9[22m   [31merror[39m  'query' is never reassigned. Use 'const' instead   [2mprefer-const[22m
+  [2m24:7[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m25:26[22m  [31merror[39m  Expected '!==' and instead saw '!='                [2meqeqeq[22m
+  [2m30:6[22m   [31merror[39m  Delete `;`                                         [2mprettier/prettier[22m
+  [2m32:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m33:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+
+[31m[1m✖ 8 problems (8 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  4 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 5:0-38 47:55-61
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/searchresult/searchresult.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/searchresult/searchresult.jsx[24m
+  [2m5:1[22m  [31merror[39m  Component should be written as a pure function  [2mreact/prefer-stateless-function[22m
+  [2m6:9[22m  [31merror[39m  Delete `·`                                      [2mprettier/prettier[22m
+
+[31m[1m✖ 2 problems (2 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  1 error, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/results/results.jsx 5:0-56 51:35-47 55:35-47
+ @ ./src/client/components/home/home.jsx
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+                [1m[32mindex.html[39m[22m  28.5 KiB       [1m1[39m[22m  [1m[32m[39m[22m           
+    [1m[32mhot-update.213aff.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/client/index.html] 852 bytes {[1m[33m1[39m[22m}
+2018-05-09T05:50:42.548Z - info: Failed to compile.
+2018-05-09T05:51:09.684Z - info: Compiling...
+2018-05-09T05:51:12.113Z - error: Hash: [1m7c9d6de471345245e23b[39m[22m
+Version: webpack [1m4.1.1[39m[22m
+Time: [1m2062[39m[22mms
+Built at: 5/9/2018 [1m1:51:11 PM[39m[22m
+                 [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[32mhot-update.594960.json[39m[22m   44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+               [1m[32mmain.js[39m[22m    110 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+             [1m[33mvendor.js[39m[22m   [1m[33m5.85 MiB[39m[22m  [1mvendor[39m[22m  [1m[32m[39m[22m           [1m[33m[big][39m[22m  vendor
+[1m[32mhot-update.50a506.json[39m[22m   35 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+            [1m[32mindex.html[39m[22m  898 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m = [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m
+[./node_modules/airbnb-browser-shims/index.js] 103 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/babel-polyfill/lib/index.js] 833 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/querystring-es3/index.js] 127 bytes {[1m[33mvendor[39m[22m}
+[./src/client/App.jsx] 301 bytes {[1m[33mmain[39m[22m}
+   [0] [1mmulti ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m 40 bytes {[1m[33mmain[39m[22m}
+[./node_modules/react-dom/index.js] 1.33 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/react/index.js] 190 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/sanitize.css/sanitize.css] 1.29 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/strip-ansi/index.js] 161 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/client-overlay.js] [1m(webpack)-hot-middleware/client-overlay.js[39m[22m 2.16 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false] [1m(webpack)-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false[39m[22m 7.18 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/process-update.js] [1m(webpack)-hot-middleware/process-update.js[39m[22m 4.23 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack/buildin/module.js] [1m(webpack)/buildin/module.js[39m[22m 519 bytes {[1m[33mvendor[39m[22m}
+[./src/client/index.jsx] 303 bytes {[1m[33mmain[39m[22m}
+[./src/client/style.scss] 1.44 KiB {[1m[33mmain[39m[22m}
+    + 734 hidden modules
+
+[1m[31mERROR in ./src/client/components/home/home.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/home/home.jsx[24m
+  [2m17:7[22m  [31merror[39m  Unused state field: 'page'  [2mreact/no-unused-state[22m
+
+[31m[1m✖ 1 problem (1 error, 0 warnings)[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/App.jsx 4:0-42 13:31-35
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/results/results.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/results/results.jsx[24m
+  [2m17:7[22m   [31merror[39m    Unused state field: 'viewToggler'                                                                                                                                                                                                                                                                                                                                                                                     [2mreact/no-unused-state[22m
+  [2m18:20[22m  [31merror[39m    'query' is missing in props validation                                                                                                                                                                                                                                                                                                                                                                                [2mreact/prop-types[22m
+  [2m27:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m31:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m33:3[22m   [31merror[39m    addResults should be placed after onScroll                                                                                                                                                                                                                                                                                                                                                                            [2mreact/sort-comp[22m
+  [2m34:5[22m   [31merror[39m    Split 'let' declarations into multiple statements                                                                                                                                                                                                                                                                                                                                                                     [2mone-var[22m
+  [2m34:51[22m  [31merror[39m    Insert `⏎·····`                                                                                                                                                                                                                                                                                                                                                                                                       [2mprettier/prettier[22m
+  [2m34:52[22m  [31merror[39m    Use object destructuring                                                                                                                                                                                                                                                                                                                                                                                              [2mprefer-destructuring[22m
+  [2m36:5[22m   [31merror[39m    Unary operator '++' used                                                                                                                                                                                                                                                                                                                                                                                              [2mno-plusplus[22m
+  [2m42:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m49:6[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m50:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m52:11[22m  [31merror[39m    Insert `·`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m54:26[22m  [31merror[39m    Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                                                                                                                   [2meqeqeq[22m
+  [2m55:71[22m  [31merror[39m    Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`                                                                                                                                                                                                                                                                                                                 [2marrow-body-style[22m
+  [2m56:16[22m  [31merror[39m    Replace `<SearchResult·url={item.show.url}·imgurl={item.show.image.medium}·name={item.show.name}·summary={item.show.summary}` with `(⏎··········<SearchResult⏎············url={item.show.url}⏎············imgurl={item.show.image.medium}⏎············name={item.show.name}⏎············summary={item.show.summary}⏎·········`                                                                                        [2mprettier/prettier[22m
+  [2m57:9[22m   [31merror[39m    Replace `}` with `);`                                                                                                                                                                                                                                                                                                                                                                                                 [2mprettier/prettier[22m
+  [2m58:7[22m   [31merror[39m    Insert `}`                                                                                                                                                                                                                                                                                                                                                                                                            [2mprettier/prettier[22m
+  [2m61:9[22m   [33mwarning[39m  Unexpected console statement                                                                                                                                                                                                                                                                                                                                                                                          [2mno-console[22m
+  [2m62:16[22m  [31merror[39m    Replace `<SearchResult·url={item.url·||·defaultURL}·imgurl={item.image.medium·||·defaultImage}·name={item.name·||·defaultName}·summary={item.summary·||·defaultSummary}` with `(⏎··········<SearchResult⏎············url={item.url·||·defaultURL}⏎············imgurl={item.image.medium·||·defaultImage}⏎············name={item.name·||·defaultName}⏎············summary={item.summary·||·defaultSummary}⏎·········`  [2mprettier/prettier[22m
+  [2m63:7[22m   [31merror[39m    Replace `}` with `··`                                                                                                                                                                                                                                                                                                                                                                                                 [2mprettier/prettier[22m
+  [2m64:1[22m   [31merror[39m    Replace `····}` with `······})`                                                                                                                                                                                                                                                                                                                                                                                       [2mprettier/prettier[22m
+  [2m65:3[22m   [31merror[39m    Insert `··}⏎`                                                                                                                                                                                                                                                                                                                                                                                                         [2mprettier/prettier[22m
+
+[31m[1m✖ 23 problems (22 errors, 1 warning)[22m[39m
+[31m[1m[22m[39m[31m[1m  15 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 6:0-41 47:136-143
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/search/search.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/search/search.jsx[24m
+  [2m23:5[22m   [31merror[39m  Split 'let' declarations into multiple statements  [2mone-var[22m
+  [2m23:9[22m   [31merror[39m  Use object destructuring                           [2mprefer-destructuring[22m
+  [2m23:9[22m   [31merror[39m  'query' is never reassigned. Use 'const' instead   [2mprefer-const[22m
+  [2m24:7[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m25:26[22m  [31merror[39m  Expected '!==' and instead saw '!='                [2meqeqeq[22m
+  [2m30:6[22m   [31merror[39m  Delete `;`                                         [2mprettier/prettier[22m
+  [2m32:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m33:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+
+[31m[1m✖ 8 problems (8 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  4 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 5:0-38 47:55-61
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/searchresult/searchresult.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/searchresult/searchresult.jsx[24m
+  [2m5:1[22m  [31merror[39m  Component should be written as a pure function  [2mreact/prefer-stateless-function[22m
+  [2m6:9[22m  [31merror[39m  Delete `·`                                      [2mprettier/prettier[22m
+
+[31m[1m✖ 2 problems (2 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  1 error, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/results/results.jsx 5:0-56 51:35-47 55:35-47
+ @ ./src/client/components/home/home.jsx
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+                [1m[32mindex.html[39m[22m  28.5 KiB       [1m0[39m[22m  [1m[32m[39m[22m           
+    [1m[32mhot-update.594960.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/client/index.html] 852 bytes {[1m[33m0[39m[22m}
+2018-05-09T05:51:12.113Z - info: Failed to compile.
+2018-05-09T05:51:17.636Z - info: ::1 - GET / - 304 - 0.001s
+2018-05-09T05:51:17.742Z - info: ::1 - GET /vendor.js - 304 - 0.04s
+2018-05-09T05:51:17.780Z - info: ::1 - GET /main.js - 200 - 0s
+2018-05-09T05:51:20.338Z - info: ::1 - GET /favicon.ico - 200 - 0.035s
+2018-05-09T05:53:26.475Z - info: Compiling...
+2018-05-09T05:53:27.433Z - error: Hash: [1md98162e4148ef6b250fc[39m[22m
+Version: webpack [1m4.1.1[39m[22m
+Time: [1m616[39m[22mms
+Built at: 5/9/2018 [1m1:53:27 PM[39m[22m
+                 [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[32mhot-update.1bc4fa.json[39m[22m   44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+               [1m[32mmain.js[39m[22m    110 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+             [1m[33mvendor.js[39m[22m   [1m[33m5.85 MiB[39m[22m  [1mvendor[39m[22m  [1m[32m[39m[22m           [1m[33m[big][39m[22m  vendor
+  [1m[32mhot-update.7c9d6d.js[39m[22m     10 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32mhot-update.7c9d6d.json[39m[22m   46 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+            [1m[32mindex.html[39m[22m  898 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m = [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m [1m[32mhot-update.7c9d6d.js[39m[22m
+[./node_modules/airbnb-browser-shims/index.js] 103 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/babel-polyfill/lib/index.js] 833 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/querystring-es3/index.js] 127 bytes {[1m[33mvendor[39m[22m}
+[./src/client/App.jsx] 301 bytes {[1m[33mmain[39m[22m}
+   [0] [1mmulti ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m 40 bytes {[1m[33mmain[39m[22m}
+[./node_modules/react-dom/index.js] 1.33 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/react/index.js] 190 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/sanitize.css/sanitize.css] 1.29 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/strip-ansi/index.js] 161 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/client-overlay.js] [1m(webpack)-hot-middleware/client-overlay.js[39m[22m 2.16 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false] [1m(webpack)-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false[39m[22m 7.18 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/process-update.js] [1m(webpack)-hot-middleware/process-update.js[39m[22m 4.23 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack/buildin/module.js] [1m(webpack)/buildin/module.js[39m[22m 519 bytes {[1m[33mvendor[39m[22m}
+[./src/client/index.jsx] 303 bytes {[1m[33mmain[39m[22m}
+[./src/client/style.scss] 1.44 KiB {[1m[33mmain[39m[22m}
+    + 734 hidden modules
+
+[1m[31mERROR in ./src/client/components/home/home.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/home/home.jsx[24m
+  [2m17:7[22m  [31merror[39m  Unused state field: 'page'  [2mreact/no-unused-state[22m
+
+[31m[1m✖ 1 problem (1 error, 0 warnings)[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/App.jsx 4:0-42 13:31-35
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/results/results.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/results/results.jsx[24m
+  [2m17:7[22m   [31merror[39m    Unused state field: 'viewToggler'                                                                                                                                                                                                                                                                                                 [2mreact/no-unused-state[22m
+  [2m18:20[22m  [31merror[39m    'query' is missing in props validation                                                                                                                                                                                                                                                                                            [2mreact/prop-types[22m
+  [2m27:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                        [2mprettier/prettier[22m
+  [2m31:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                        [2mprettier/prettier[22m
+  [2m33:3[22m   [31merror[39m    addResults should be placed after onScroll                                                                                                                                                                                                                                                                                        [2mreact/sort-comp[22m
+  [2m34:5[22m   [31merror[39m    Split 'let' declarations into multiple statements                                                                                                                                                                                                                                                                                 [2mone-var[22m
+  [2m34:51[22m  [31merror[39m    Insert `⏎·····`                                                                                                                                                                                                                                                                                                                   [2mprettier/prettier[22m
+  [2m34:52[22m  [31merror[39m    Use object destructuring                                                                                                                                                                                                                                                                                                          [2mprefer-destructuring[22m
+  [2m36:5[22m   [31merror[39m    Unary operator '++' used                                                                                                                                                                                                                                                                                                          [2mno-plusplus[22m
+  [2m42:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                        [2mprettier/prettier[22m
+  [2m49:6[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                        [2mprettier/prettier[22m
+  [2m50:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                        [2mprettier/prettier[22m
+  [2m52:11[22m  [31merror[39m    Insert `·`                                                                                                                                                                                                                                                                                                                        [2mprettier/prettier[22m
+  [2m54:26[22m  [31merror[39m    Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                               [2meqeqeq[22m
+  [2m55:71[22m  [31merror[39m    Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`                                                                                                                                                                                                                             [2marrow-body-style[22m
+  [2m56:15[22m  [31merror[39m    Replace `·<SearchResult·url={item.show.url}·imgurl={item.show.image.medium}·name={item.show.name}·summary={item.show.summary}` with `·(⏎··········<SearchResult⏎············url={item.show.url}⏎············imgurl={item.show.image.medium}⏎············name={item.show.name}⏎············summary={item.show.summary}⏎·········`  [2mprettier/prettier[22m
+  [2m57:9[22m   [31merror[39m    Replace `}` with `);`                                                                                                                                                                                                                                                                                                             [2mprettier/prettier[22m
+  [2m58:7[22m   [31merror[39m    Insert `}`                                                                                                                                                                                                                                                                                                                        [2mprettier/prettier[22m
+  [2m61:9[22m   [33mwarning[39m  Unexpected console statement                                                                                                                                                                                                                                                                                                      [2mno-console[22m
+  [2m62:9[22m   [31merror[39m    Split 'let' declarations into multiple statements                                                                                                                                                                                                                                                                                 [2mone-var[22m
+  [2m62:13[22m  [31merror[39m    'url' is never reassigned. Use 'const' instead                                                                                                                                                                                                                                                                                    [2mprefer-const[22m
+  [2m63:11[22m  [31merror[39m    Delete `··`                                                                                                                                                                                                                                                                                                                       [2mprettier/prettier[22m
+  [2m63:13[22m  [31merror[39m    'imgurl' is never reassigned. Use 'const' instead                                                                                                                                                                                                                                                                                 [2mprefer-const[22m
+  [2m64:1[22m   [31merror[39m    Delete `··`                                                                                                                                                                                                                                                                                                                       [2mprettier/prettier[22m
+  [2m64:13[22m  [31merror[39m    'name' is never reassigned. Use 'const' instead                                                                                                                                                                                                                                                                                   [2mprefer-const[22m
+  [2m65:11[22m  [31merror[39m    Delete `··`                                                                                                                                                                                                                                                                                                                       [2mprettier/prettier[22m
+  [2m65:13[22m  [31merror[39m    'summary' is never reassigned. Use 'const' instead                                                                                                                                                                                                                                                                                [2mprefer-const[22m
+  [2m66:88[22m  [31merror[39m    Insert `;`                                                                                                                                                                                                                                                                                                                        [2mprettier/prettier[22m
+  [2m68:6[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                        [2mprettier/prettier[22m
+  [2m69:1[22m   [31merror[39m    Delete `··`                                                                                                                                                                                                                                                                                                                       [2mprettier/prettier[22m
+
+[31m[1m✖ 30 problems (29 errors, 1 warning)[22m[39m
+[31m[1m[22m[39m[31m[1m  17 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 6:0-41 47:136-143
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/search/search.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/search/search.jsx[24m
+  [2m23:5[22m   [31merror[39m  Split 'let' declarations into multiple statements  [2mone-var[22m
+  [2m23:9[22m   [31merror[39m  Use object destructuring                           [2mprefer-destructuring[22m
+  [2m23:9[22m   [31merror[39m  'query' is never reassigned. Use 'const' instead   [2mprefer-const[22m
+  [2m24:7[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m25:26[22m  [31merror[39m  Expected '!==' and instead saw '!='                [2meqeqeq[22m
+  [2m30:6[22m   [31merror[39m  Delete `;`                                         [2mprettier/prettier[22m
+  [2m32:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m33:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+
+[31m[1m✖ 8 problems (8 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  4 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 5:0-38 47:55-61
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/searchresult/searchresult.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/searchresult/searchresult.jsx[24m
+  [2m5:1[22m  [31merror[39m  Component should be written as a pure function  [2mreact/prefer-stateless-function[22m
+  [2m6:9[22m  [31merror[39m  Delete `·`                                      [2mprettier/prettier[22m
+
+[31m[1m✖ 2 problems (2 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  1 error, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/results/results.jsx 5:0-56 51:35-47 55:35-47
+ @ ./src/client/components/home/home.jsx
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+                [1m[32mindex.html[39m[22m  28.5 KiB       [1m1[39m[22m  [1m[32m[39m[22m           
+    [1m[32mhot-update.1bc4fa.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/client/index.html] 852 bytes {[1m[33m1[39m[22m}
+2018-05-09T05:53:27.433Z - info: Failed to compile.
+2018-05-09T05:53:39.221Z - info: ::1 - GET / - 304 - 0.001s
+2018-05-09T05:53:39.276Z - info: ::1 - GET /vendor.js - 304 - 0.023s
+2018-05-09T05:53:39.278Z - info: ::1 - GET /main.js - 200 - 0.001s
+2018-05-09T05:53:40.671Z - info: ::1 - GET /favicon.ico - 200 - 0.024s
+2018-05-09T05:54:59.745Z - info: Compiling...
+2018-05-09T05:55:00.633Z - error: Hash: [1m9827ac77d507dcf5cd18[39m[22m
+Version: webpack [1m4.1.1[39m[22m
+Time: [1m576[39m[22mms
+Built at: 5/9/2018 [1m1:55:00 PM[39m[22m
+                 [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[32mhot-update.1098b3.json[39m[22m   44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+               [1m[32mmain.js[39m[22m    110 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+             [1m[33mvendor.js[39m[22m   [1m[33m5.85 MiB[39m[22m  [1mvendor[39m[22m  [1m[32m[39m[22m           [1m[33m[big][39m[22m  vendor
+  [1m[32mhot-update.d98162.js[39m[22m   10.1 KiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32mhot-update.d98162.json[39m[22m   46 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+            [1m[32mindex.html[39m[22m  898 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m = [1m[32mvendor.js[39m[22m [1m[32mmain.js[39m[22m [1m[32mhot-update.d98162.js[39m[22m
+[./node_modules/airbnb-browser-shims/index.js] 103 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/babel-polyfill/lib/index.js] 833 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/querystring-es3/index.js] 127 bytes {[1m[33mvendor[39m[22m}
+[./src/client/App.jsx] 301 bytes {[1m[33mmain[39m[22m}
+   [0] [1mmulti ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m 40 bytes {[1m[33mmain[39m[22m}
+[./node_modules/react-dom/index.js] 1.33 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/react/index.js] 190 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/sanitize.css/sanitize.css] 1.29 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/strip-ansi/index.js] 161 bytes {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/client-overlay.js] [1m(webpack)-hot-middleware/client-overlay.js[39m[22m 2.16 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false] [1m(webpack)-hot-middleware/client.js?http://localhost:3000&reload=true&overlay=false[39m[22m 7.18 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack-hot-middleware/process-update.js] [1m(webpack)-hot-middleware/process-update.js[39m[22m 4.23 KiB {[1m[33mvendor[39m[22m}
+[./node_modules/webpack/buildin/module.js] [1m(webpack)/buildin/module.js[39m[22m 519 bytes {[1m[33mvendor[39m[22m}
+[./src/client/index.jsx] 303 bytes {[1m[33mmain[39m[22m}
+[./src/client/style.scss] 1.44 KiB {[1m[33mmain[39m[22m}
+    + 734 hidden modules
+
+[1m[31mERROR in ./src/client/components/home/home.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/home/home.jsx[24m
+  [2m17:7[22m  [31merror[39m  Unused state field: 'page'  [2mreact/no-unused-state[22m
+
+[31m[1m✖ 1 problem (1 error, 0 warnings)[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/App.jsx 4:0-42 13:31-35
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/results/results.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/results/results.jsx[24m
+  [2m17:7[22m   [31merror[39m    Unused state field: 'viewToggler'                                                                                                                                                                                                                                                                                               [2mreact/no-unused-state[22m
+  [2m18:20[22m  [31merror[39m    'query' is missing in props validation                                                                                                                                                                                                                                                                                          [2mreact/prop-types[22m
+  [2m27:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m31:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m33:3[22m   [31merror[39m    addResults should be placed after onScroll                                                                                                                                                                                                                                                                                      [2mreact/sort-comp[22m
+  [2m34:5[22m   [31merror[39m    Split 'let' declarations into multiple statements                                                                                                                                                                                                                                                                               [2mone-var[22m
+  [2m34:51[22m  [31merror[39m    Insert `⏎·····`                                                                                                                                                                                                                                                                                                                 [2mprettier/prettier[22m
+  [2m34:52[22m  [31merror[39m    Use object destructuring                                                                                                                                                                                                                                                                                                        [2mprefer-destructuring[22m
+  [2m36:5[22m   [31merror[39m    Unary operator '++' used                                                                                                                                                                                                                                                                                                        [2mno-plusplus[22m
+  [2m42:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m49:6[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m50:4[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m52:11[22m  [31merror[39m    Insert `·`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m54:26[22m  [31merror[39m    Expected '!==' and instead saw '!='                                                                                                                                                                                                                                                                                             [2meqeqeq[22m
+  [2m55:71[22m  [31merror[39m    Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`                                                                                                                                                                                                                           [2marrow-body-style[22m
+  [2m56:16[22m  [31merror[39m    Replace `<SearchResult·url={item.show.url}·imgurl={item.show.image.medium}·name={item.show.name}·summary={item.show.summary}` with `(⏎··········<SearchResult⏎············url={item.show.url}⏎············imgurl={item.show.image.medium}⏎············name={item.show.name}⏎············summary={item.show.summary}⏎·········`  [2mprettier/prettier[22m
+  [2m57:9[22m   [31merror[39m    Replace `}` with `);`                                                                                                                                                                                                                                                                                                           [2mprettier/prettier[22m
+  [2m58:7[22m   [31merror[39m    Insert `}`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m61:9[22m   [33mwarning[39m  Unexpected console statement                                                                                                                                                                                                                                                                                                    [2mno-console[22m
+  [2m62:9[22m   [31merror[39m    Split 'let' declarations into multiple statements                                                                                                                                                                                                                                                                               [2mone-var[22m
+  [2m62:13[22m  [31merror[39m    'url' is never reassigned. Use 'const' instead                                                                                                                                                                                                                                                                                  [2mprefer-const[22m
+  [2m63:11[22m  [31merror[39m    Replace `··imgurl·=·(item.image·?·item.image.medium·:·defaultImage)` with `imgurl·=·item.image·?·item.image.medium·:·defaultImage`                                                                                                                                                                                              [2mprettier/prettier[22m
+  [2m63:13[22m  [31merror[39m    'imgurl' is never reassigned. Use 'const' instead                                                                                                                                                                                                                                                                               [2mprefer-const[22m
+  [2m64:11[22m  [31merror[39m    Delete `··`                                                                                                                                                                                                                                                                                                                     [2mprettier/prettier[22m
+  [2m64:13[22m  [31merror[39m    'name' is never reassigned. Use 'const' instead                                                                                                                                                                                                                                                                                 [2mprefer-const[22m
+  [2m65:1[22m   [31merror[39m    Delete `··`                                                                                                                                                                                                                                                                                                                     [2mprettier/prettier[22m
+  [2m65:13[22m  [31merror[39m    'summary' is never reassigned. Use 'const' instead                                                                                                                                                                                                                                                                              [2mprefer-const[22m
+  [2m66:88[22m  [31merror[39m    Insert `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m68:6[22m   [31merror[39m    Delete `;`                                                                                                                                                                                                                                                                                                                      [2mprettier/prettier[22m
+  [2m69:1[22m   [31merror[39m    Delete `··`                                                                                                                                                                                                                                                                                                                     [2mprettier/prettier[22m
+
+[31m[1m✖ 30 problems (29 errors, 1 warning)[22m[39m
+[31m[1m[22m[39m[31m[1m  17 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 6:0-41 47:136-143
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/search/search.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/search/search.jsx[24m
+  [2m23:5[22m   [31merror[39m  Split 'let' declarations into multiple statements  [2mone-var[22m
+  [2m23:9[22m   [31merror[39m  Use object destructuring                           [2mprefer-destructuring[22m
+  [2m23:9[22m   [31merror[39m  'query' is never reassigned. Use 'const' instead   [2mprefer-const[22m
+  [2m24:7[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m25:26[22m  [31merror[39m  Expected '!==' and instead saw '!='                [2meqeqeq[22m
+  [2m30:6[22m   [31merror[39m  Delete `;`                                         [2mprettier/prettier[22m
+  [2m32:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+  [2m33:1[22m   [31merror[39m  Delete `··`                                        [2mprettier/prettier[22m
+
+[31m[1m✖ 8 problems (8 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  4 errors, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/home/home.jsx 5:0-38 47:55-61
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+
+[1m[31mERROR in ./src/client/components/searchresult/searchresult.jsx
+
+[4m/Users/kokcheekean/Documents/GitHub/tvmaze-react/src/client/components/searchresult/searchresult.jsx[24m
+  [2m5:1[22m  [31merror[39m  Component should be written as a pure function  [2mreact/prefer-stateless-function[22m
+  [2m6:9[22m  [31merror[39m  Delete `·`                                      [2mprettier/prettier[22m
+
+[31m[1m✖ 2 problems (2 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  1 error, 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+ @ ./src/client/components/results/results.jsx 5:0-56 51:35-47 55:35-47
+ @ ./src/client/components/home/home.jsx
+ @ ./src/client/App.jsx
+ @ ./src/client/index.jsx
+ @ multi ./src/client/index.jsx webpack-hot-middleware/client?http://localhost:3000&reload=true&overlay=false[39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+                [1m[32mindex.html[39m[22m  28.5 KiB       [1m0[39m[22m  [1m[32m[39m[22m           
+    [1m[32mhot-update.1098b3.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+    [./node_modules/html-webpack-plugin/lib/loader.js!./src/client/index.html] 852 bytes {[1m[33m0[39m[22m}
+2018-05-09T05:55:00.633Z - info: Failed to compile.
+2018-05-09T05:55:01.302Z - info: ::1 - GET / - 304 - 0.001s
+2018-05-09T05:55:01.348Z - info: ::1 - GET /vendor.js - 304 - 0.023s
+2018-05-09T05:55:01.352Z - info: ::1 - GET /main.js - 200 - 0.001s
+2018-05-09T05:55:02.785Z - info: ::1 - GET /favicon.ico - 200 - 0.013s

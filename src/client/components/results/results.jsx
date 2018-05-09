@@ -5,6 +5,10 @@ import styles from './style.scss';
 import SearchResult from '../searchresult/searchresult';
 
 const urlRoot = 'http://api.tvmaze.com/shows?page=';
+const defaultImage = 'https://www.wakesmiles.org/wp-content/uploads/2017/10/placeholder-2.png';
+const defaultURL = 'http://localhost:3000';
+const defaultName = 'Movie';
+const defaultSummary = 'Summary';
 
 class Results extends React.Component {
   constructor(props) {
@@ -54,7 +58,12 @@ class Results extends React.Component {
       );
     } else {
       searchResultsListItems = this.state.searchResults.map((item) => {
-        return <SearchResult url={item.url} imgurl={item.image.medium} name={item.name} summary={item.summary} />
+        console.log(item.id);
+        let url = item.url || defaultURL,
+            imgurl = (item.image ? item.image.medium : defaultImage),
+            name = item.name || defaultName,
+            summary = item.summary || defaultSummary;
+        return <SearchResult url={url} imgurl={imgurl} name={name} summary={summary} />
       });
     };
   
