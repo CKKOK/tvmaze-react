@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button} from 'react-bootstrap';
+import {withRouter} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import styles from './style.scss';
 import SearchResult from '../searchresult/searchresult';
@@ -23,11 +24,16 @@ class Results extends React.Component {
     this.onScroll = this.onScroll.bind(this);
   }
   componentDidMount() {
-    window.addEventListener('scroll', this.onScroll, false);
+    this.props.history.push('/results');
+    if (this.state.query == '') {
+      window.addEventListener('scroll', this.onScroll, false);
+    }
   };
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.onScroll, false);
+    if (this.state.query == '') {
+      window.removeEventListener('scroll', this.onScroll, false);
+    }
   };
 
   addResults(data) {
@@ -58,7 +64,6 @@ class Results extends React.Component {
       );
     } else {
       searchResultsListItems = this.state.searchResults.map((item) => {
-        console.log(item.id);
         let url = item.url || defaultURL,
             imgurl = (item.image ? item.image.medium : defaultImage),
             name = item.name || defaultName,
@@ -83,4 +88,4 @@ Results.propTypes = {
   viewToggler: PropTypes.func.isRequired
 };
 
-export default Results;
+export default withRouter(Results);

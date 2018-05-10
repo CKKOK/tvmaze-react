@@ -1,6 +1,6 @@
 import React from 'react';
 import {hot} from 'react-hot-loader';
-
+import { BrowserRouter } from 'react-router-dom';
 import Home from './components/home/home';
 
 class App extends React.Component {

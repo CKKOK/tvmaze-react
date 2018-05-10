@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Button} from 'react-bootstrap';
+import {withRouter} from 'react-router-dom';
 import styles from './style.scss';
 
 const urlRoot = 'http://api.tvmaze.com/search/shows?q=';
@@ -12,6 +13,10 @@ class Search extends React.Component {
     this.state = {
       query: ''
     };
+  }
+
+  componentDidMount() {
+    this.props.history.push('/search');
   }
 
   onChange(value) {
@@ -32,6 +37,8 @@ class Search extends React.Component {
         .then((response) => response.json())
         .then((data) => this.props.searchResultHandler(data, query));
   }
+
+  
 
   render() {
     return (
@@ -57,4 +64,4 @@ Search.propTypes = {
   searchResultHandler: PropTypes.func.isRequired
 };
 
-export default Search;
+export default withRouter(Search);
